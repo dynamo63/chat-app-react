@@ -6,7 +6,8 @@
   "author": "dynamo63",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build":"parcel build src/index.html --no-source-maps"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"

@@ -1,0 +1,33 @@
+.message{
+    display: flex;
+    align-items: center;
+    margin: .5em 1em;
+}
+
+.message-received{
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+.message-profil{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 .5em;
+    overflow: hidden;
+}
+
+.message-profil > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.message-content{
+    font-family: 'Nunito', cursive;
+    font-size: 1.2em;
+    background-color: hsl(0, 0%, 96%);
+    flex-basis: 60%;
+    border-radius: 40px;
+    padding: .7em .65em;
+}
